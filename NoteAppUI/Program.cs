@@ -12,6 +12,7 @@ namespace NoteAppUI
         /// Главная точка входа для приложения.
         /// </summary>
         [STAThread]
+        // Комментарий
         static void Main()
         {
             Application.EnableVisualStyles();
