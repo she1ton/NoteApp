@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
@@ -12,12 +13,13 @@ namespace NoteAppUI
         /// Главная точка входа для приложения.
         /// </summary>
         [STAThread]
-        // Комментарий
         static void Main()
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form1());
+            Application.Run(new MainForm());
+            ArrayList list = new ArrayList();
+
         }
     }
 }
